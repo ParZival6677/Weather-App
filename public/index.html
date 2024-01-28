@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Oops! Invalid location :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+            <div class="additional-api hidden">
+                <button class="fa-solid fa-newspaper news-button" id="news-button"></button>
+                <button class="fa-solid fa-satellite-dish astronomy-data-button" id="astronomy-data-button"></button>
+            </div>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+              <i class="fa-solid fa-water"></i>
+              <div class="text">
+                <span></span>
+                <p>Humidity</p>
+              </div>
+            </div>
+            <div class="feels-like">
+              <i class="fa-solid fa-temperature-empty"></i>
+              <div class="text">
+                <span></span>
+                <p>Feels Like</p>
+              </div>
+            </div>
+            <div class="wind">
+              <i class="fa-solid fa-wind"></i>
+              <div class="text">
+                <span></span>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+            <div class="rain">
+              <i class="fa-solid fa-cloud-rain"></i>
+              <div class="text">
+                <span></span>
+                <p>Rain Volume</p>
+              </div>
+            </div>
+            <div class="pressure">
+              <i class="fa-solid fa-feather-pointed"></i>
+              <div class="text">
+                <span></span>
+                <p>Pressure</p>
+              </div>
+            </div>
+              <div class="country-code">
+                <i class="fa-solid fa-flag"></i>
+                <div class="text">
+                  <span></span>
+                  <p>Country Code</p>
+                </div>
+              </div>
+            </div>
+            <!-- News container -->
+            <div class="news">
+                <!-- News content will go here -->
+            </div>
+            
+            <!-- Exchange rates container -->
+            <div class="astronomy-data">
+                <!-- Exchange rates content will go here -->
+            </div>
+            
+
+          </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
