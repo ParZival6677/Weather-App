@@ -7,15 +7,16 @@
 ```bash
 git clone https://github.com/your-username/weather-app.git
 ```
+2. `npm init -y`
 
-2. Install dependencies 
+3. Install dependencies 
 
 `npm install express axios dotenv`
   
-3. Start the server 
+4. Start the server 
 
 ```bash
 node server.js
 ```
 
-4. `npm start http://localhost:3000/index.html`
+5. `npm start http://localhost:3000/index.html`
