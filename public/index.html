@@ -10,11 +10,10 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Day #10 - Weather App | AsmrProg</title>
+    <title>Weather App</title>
 </head>
 
 <body>
-
     <div class="container">
         <div class="search-box">
             <i class="fa-solid fa-location-dot"></i>
@@ -31,6 +30,10 @@
             <img src="">
             <p class="temperature"></p>
             <p class="description"></p>
+            <div class="additional-api hidden">
+                <button class="fa-solid fa-newspaper news-button" id="news-button"></button>
+                <button class="fa-solid fa-chart-line exchange-rates-button" id="exchange-rates-button"></button>
+            </div>
         </div>
 
         <div class="weather-details">
@@ -68,6 +71,7 @@
                 <span></span>
                 <p>Pressure</p>
               </div>
+            </div>
               <div class="country-code">
                 <i class="fa-solid fa-flag"></i>
                 <div class="text">
@@ -75,6 +79,15 @@
                   <p>Country Code</p>
                 </div>
               </div>
+            </div>
+            <!-- News container -->
+            <div class="news">
+                <!-- News content will go here -->
+            </div>
+            
+            <!-- Exchange rates container -->
+            <div class="exchange-rates">
+                <!-- Exchange rates content will go here -->
             </div>
           </div>
     </div>
