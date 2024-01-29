@@ -19,4 +19,4 @@ git clone https://github.com/your-username/weather-app.git
 node server.js
 ```
 
-5. `npm start http://localhost:3000/index.html`
+5. `start http://localhost:3000/index.html`
